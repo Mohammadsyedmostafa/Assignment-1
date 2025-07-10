@@ -160,18 +160,19 @@ body{
     font-size: 12px;
     margin-top: 0px;
 }
-/*  */
+/* Touch Section */
 .touch-section{
     display: flex;
     gap: 100px;
     padding: 50px 150px;
     align-items: center;
+    margin-top: 50px;
 }
 .touch-containar{
     width: 50%;
 }
 .touch-title{
-    font-size: 97px;
+    font-size: 90px;
     font-weight: bold;
 }
 .label-title{
@@ -212,4 +213,25 @@ body{
     background-color: white;
     color: #252432;
     border: 2px solid #4E47FF;
+}
+/*  */
+.footer-logo{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.footer-description{
+    margin: 0px 370px;
+}
+.footer-container{
+    display: flex;
+    gap: 48px;
+    justify-content: space-around;
+    margin: 30px 370px 20px 370px;
+}
+.footer-container a{
+    text-decoration: none;
+    color: #252432;
 }
