@@ -159,5 +159,57 @@ body{
 .feedback-subtitle{
     font-size: 12px;
     margin-top: 0px;
-
+}
+/*  */
+.touch-section{
+    display: flex;
+    gap: 100px;
+    padding: 50px 150px;
+    align-items: center;
+}
+.touch-containar{
+    width: 50%;
+}
+.touch-title{
+    font-size: 97px;
+    font-weight: bold;
+}
+.label-title{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.touch-section input[type="email"],.touch-section input[type="text"]{
+    background-color: white;
+    padding: 20px;
+    height: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.touch-section textarea{
+    background-color: white;
+    padding: 20px 30px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    width: 75%;
+}
+.btn-primary1{
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 20px;
+}
+.btn-primary1:hover{
+    background-color: white;
+    color: #252432;
+    border: 2px solid #4E47FF;
 }
